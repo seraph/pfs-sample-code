@@ -18,3 +18,4 @@
 #Ignore Cloud 9 files
 /.c9
 /.c9revisions
+/.c9/*

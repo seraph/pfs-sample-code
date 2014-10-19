@@ -2,10 +2,6 @@ Workspace::Application.routes.draw do
   
   resources :users
   
-  get    'login' => 'sessions#new'
-  post   'login' => 'sessions#create'
-  delete 'logout' => 'sessions#destroy'
-  
   # resources :students
   
   # The priority is based upon order of creation: first created -> highest priority.

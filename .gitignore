@@ -19,3 +19,5 @@
 /.c9
 /.c9revisions
 /.c9/*
+
+.env

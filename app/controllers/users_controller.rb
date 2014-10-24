@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class UsersController < SecureApplicationController
     
     def index
         if params[:name]

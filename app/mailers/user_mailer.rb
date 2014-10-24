@@ -9,6 +9,6 @@ class UserMailer < ActionMailer::Base
 
   def engagement_email(user)
     @user = user
-    mail(to: @user.email, subject 'We miss you! Come back!')
+    mail(to: @user.email, subject: 'We miss you! Come back!')
   end
 end
